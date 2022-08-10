@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Me</title>
+	</head>
+	<body>
+		<p>
+			Hi, fill out the following form and you can wait for my reply! Cheers!
+		</p>
+		<form class="" method="POST" action="index.html" enctype="text">
+			<label>Your name:</label>
+			<input class="name" type="text" name="UserName" value="JohnDoe"><br>
+			<label>Your email:</label>
+			<input class="email" type="email" name="UserEmail" value="johndoe@email.com"><br>
+			<label>Your comment/enquiry please:</label><br>
+			<textarea name="UserText" rows="1" cols="30">Write here...</textarea><br>
+			<input type="checkbox" name="UserTerms">
+			I agree to terms and conditions.<br>
+			<input type="submit" name="UserSubmit" value="Submit Request">
+		</form>
+	</body>
+</html>
+
+<style type="text/css">
+	.name, .email{
+		padding: 7px;
+		margin: 5px;
+	}
+</style>
